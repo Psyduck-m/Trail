@@ -35,7 +35,7 @@ const gameOver = () => {
 
 const startGame = () => {
     gamePattern = [];
-    document.body.addEventListener("keydown", () => {
+    $('.startGame').click( () => {
         if(!started){
             nextSequence();
         }
